@@ -7,6 +7,9 @@
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
+import serialize from "serialize-javascript";
+
+console.log("serialize:", serialize);
 
 export default {
   name: "App",
